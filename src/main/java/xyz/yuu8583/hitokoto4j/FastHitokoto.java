@@ -7,7 +7,7 @@ package xyz.yuu8583.hitokoto4j;
  * @date: 7/11/2022 4:23 PM
  */
 
-public class FastHitokoto {
+public final class FastHitokoto {
     private FastHitokoto() {
     }
 
