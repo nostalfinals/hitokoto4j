@@ -26,95 +26,95 @@ public class HitokotoResponse {
     public HitokotoResponse() {
     }
 
-    protected void setId(long id) {
-        this.id = id;
-    }
-
-    protected void setHitokoto(String hitokoto) {
-        this.hitokoto = hitokoto;
-    }
-
-    protected void setType(HitokotoType type) {
-        this.type = type;
-    }
-
-    protected void setFrom(String from) {
-        this.from = from;
-    }
-
-    protected void setFromWho(String fromWho) {
-        this.fromWho = fromWho;
-    }
-
-    protected void setCreator(String creator) {
-        this.creator = creator;
-    }
-
-    protected void setCreatorUid(long creatorUid) {
-        this.creatorUid = creatorUid;
-    }
-
-    protected void setReviewer(long reviewer) {
-        this.reviewer = reviewer;
-    }
-
-    protected void setUuid(UUID uuid) {
-        this.uuid = uuid;
-    }
-
     protected void setCommitFrom(String commitFrom) {
         this.commitFrom = commitFrom;
-    }
-
-    protected void setCreatedAt(String createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    protected void setLength(int length) {
-        this.length = length;
     }
 
     public HitokotoType getType() {
         return type;
     }
 
+    protected void setType(HitokotoType type) {
+        this.type = type;
+    }
+
     public String getCreatedAt() {
         return createdAt;
+    }
+
+    protected void setCreatedAt(String createdAt) {
+        this.createdAt = createdAt;
     }
 
     public String getHitokoto() {
         return hitokoto;
     }
 
+    protected void setHitokoto(String hitokoto) {
+        this.hitokoto = hitokoto;
+    }
+
     public String getCreator() {
         return creator;
+    }
+
+    protected void setCreator(String creator) {
+        this.creator = creator;
     }
 
     public long getCreatorUid() {
         return creatorUid;
     }
 
+    protected void setCreatorUid(long creatorUid) {
+        this.creatorUid = creatorUid;
+    }
+
     public String getFrom() {
         return from;
+    }
+
+    protected void setFrom(String from) {
+        this.from = from;
     }
 
     public String getFromWho() {
         return fromWho;
     }
 
+    protected void setFromWho(String fromWho) {
+        this.fromWho = fromWho;
+    }
+
     public long getId() {
         return id;
+    }
+
+    protected void setId(long id) {
+        this.id = id;
     }
 
     public int getLength() {
         return length;
     }
 
+    protected void setLength(int length) {
+        this.length = length;
+    }
+
     public long getReviewer() {
         return reviewer;
     }
 
+    protected void setReviewer(long reviewer) {
+        this.reviewer = reviewer;
+    }
+
     public UUID getUuid() {
         return uuid;
+    }
+
+    protected void setUuid(UUID uuid) {
+        this.uuid = uuid;
     }
 }

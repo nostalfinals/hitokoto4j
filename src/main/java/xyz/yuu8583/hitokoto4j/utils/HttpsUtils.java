@@ -38,7 +38,7 @@ public final class HttpsUtils {
             while ((s = bufferedReader.readLine()) != null) {
                 stringBuilder.append(s);
             }
-        }catch (IOException e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
         return stringBuilder.toString();
