@@ -12,7 +12,7 @@ FastHitokoto.requestAndGetJson();
 //Do request with arguments.
 HitokotoBuilder hitokotoBuilder = new HitokotoBuilder()
         .addType(HitokotoType.LITERATURE)
-        .addType(HitokotoType.LITERATURE)
+        .addType(HitokotoType.ANIME)
         .setMinLength(1)
         .setMaxLength(15);
 Hitokoto hitokoto = hitokotoBuilder.build();
