@@ -5,7 +5,7 @@ plugins {
 }
 
 group 'xyz.yuu8583'
-version '1.0.0'
+version '1.0.1'
 
 repositories {
     mavenCentral()
@@ -26,6 +26,14 @@ publishing {
             url "$buildDir/repo"
         }
     }
+}
+
+processResources {
+    filteringCharset 'UTF-8'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
 }
 
 dependencies {
