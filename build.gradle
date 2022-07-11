@@ -9,6 +9,23 @@ version '1.0.0'
 
 repositories {
     mavenCentral()
+    maven {
+        url "https://raw.githubusercontent.com/GerryYuu/repository/master/"
+    }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+
+    repositories {
+        maven {
+            url "$buildDir/repo"
+        }
+    }
 }
 
 dependencies {
