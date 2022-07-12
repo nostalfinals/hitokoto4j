@@ -18,11 +18,11 @@ dependencies {
 ```
 Some examples:
 ```java
-///Do fast request without any arguments.
+///Do some fast requests without any arguments.
 FastHitokoto.request();
 FastHitokoto.requestAndGetJson();
 
-//Do request with arguments.
+//Do some requests with arguments.
 HitokotoBuilder hitokotoBuilder = new HitokotoBuilder()
         .addType(HitokotoType.LITERATURE)
         .addType(HitokotoType.ANIME)
