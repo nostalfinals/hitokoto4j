@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation('xyz.yuu8583:hitokoto4j:1.0.0')
+    implementation('xyz.yuu8583:hitokoto4j:1.0.1')
 }
 ```
 Some examples:
