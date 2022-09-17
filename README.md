@@ -3,7 +3,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/gerryyuu/hitokoto4j/badge)](https://www.codefactor.io/repository/github/gerryyuu/hitokoto4j)<br>
 A simple Java API for [一言 Hitokoto](https://hitokoto.cn/).
 
-### Usage
+## Usage
 
 Add repository & dependence:
 ```groovy
