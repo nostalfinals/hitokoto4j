@@ -5,7 +5,9 @@ import com.google.gson.JsonParser;
 import xyz.yuu8583.hitokoto4j.utils.HttpsUtils;
 import xyz.yuu8583.hitokoto4j.utils.TypeUtils;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.util.UUID;
 
 /**
