@@ -64,17 +64,20 @@ public class HitokotoBuilder {
 
     public Hitokoto build() {
         StringBuilder stringBuilder = new StringBuilder().append(url);
-        for (HitokotoType type : types) {
-            stringBuilder.append("&c=").append(TypeUtils.getTypeWord(type));
-        }
+
+        types.forEach(type -> stringBuilder.append("&c=").append(TypeUtils.getTypeWord(type)));
+
         stringBuilder.append("&min_length=").append(minLength);
         stringBuilder.append("&max_length=").append(maxLength);
+
         if (select != null) {
             stringBuilder.append("&select=").append(select);
         }
+
         if (callback != null) {
             stringBuilder.append("&callback=").append(callback);
         }
+
         return new Hitokoto(stringBuilder.toString());
     }
 }
